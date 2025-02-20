@@ -13,7 +13,7 @@ html {
     font-weight: 400;
 }
 
-.header__links-list{
+.header__links-list {
     display: flex;
     padding-left: 50px;
     gap: 30px;
@@ -246,7 +246,7 @@ html {
     display: grid;
     grid-template-columns: 334px 1fr;
     grid-template-rows: auto auto;
-    column-gap: 25px; 
+    column-gap: 25px;
 }
 
 .about__logo {
