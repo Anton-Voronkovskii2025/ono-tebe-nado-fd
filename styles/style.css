@@ -23,6 +23,7 @@ html {
 .header__links-list-item_no-bullit {
     list-style: none;
 }
+
 .header__link_active {
     text-decoration: none;
 }
@@ -94,7 +95,7 @@ html {
 
 .aligned-text {
     display: block;
-   }
+}
 
 .aligned-text_center {
     display: block;
@@ -129,6 +130,7 @@ html {
     text-transform: uppercase;
     font-weight: 500;
     color: white;
+    cursor: pointer;
     background-color: transparent;
     padding: 11px 31.5px;
     transition: background-color 0.5s, transform 0.5s;
@@ -152,7 +154,7 @@ html {
     padding: 0 0 0 40px;
     font-size: 40px;
     font-weight: 700;
-    line-height: 1,175;
+    line-height: 1.175;
     text-transform: uppercase;
 }
 
@@ -169,11 +171,14 @@ html {
     flex-grow: 1;
     min-height: 596px;
     position: relative;
+    background-size: cover;
+    background-position: center;
+    color: white;
     transition: transform 0.5s;
 }
 
 .lots__card-list-item:hover {
-    transform:  scale(105%) ;
+    transform: scale(105%);
     transition: transform 1.5s;
 }
 
@@ -192,20 +197,14 @@ html {
 
 .card_type_film {
     background-image: url("../images/card-lot-01.jpg");
-    background-size: cover;
-    background-position: center;
 }
 
 .card_type_book {
     background-image: url("../images/card-lot-02.jpg");
-    background-size: cover;
-    background-position: center;
 }
 
 .card_type_picture {
     background-image: url("../images/card-lot-03.jpg");
-    background-size: cover;
-    background-position: center;
 }
 
 .card__title {
@@ -216,7 +215,6 @@ html {
     text-transform: uppercase;
     text-decoration: underline;
     text-underline-offset: 3px;
-    color: white;
     z-index: 1;
 } 
 
@@ -225,7 +223,6 @@ html {
     font-size: 20px;
     font-weight: 400;
     line-height: 1.2;
-    color: white;
     z-index: 1;
 }
 
@@ -251,7 +248,7 @@ html {
     height: 240px;
     width: 240px;
     background-color: black;
-    border-radius: 240px;
+    border-radius: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -294,6 +291,7 @@ html {
     padding-bottom: 48px;
 
 }
+
 .footer_address {
     justify-self: start;
     margin-left: 50px;
@@ -345,7 +343,7 @@ html {
 .footer__social-icon:hover {
     transform: scale(110%);
     transition: transform 0.5s;
-    border-radius: 48px;
+    border-radius: 100%;
 }
 
 .footer__social-icon-yt:hover {
